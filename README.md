@@ -20,7 +20,7 @@ source devel/setup.bash
 ```
 Run each of the following in its own tab (don't forget to source devel/setup.bash for each):
 ```
-roslaunch cvchallenge_task2 catvehicle_custom.launch worldfile:=world1.worldfile
+roslaunch cvchallenge_task2 catvehicle_custom.launch worldfile:=world1.world
 rosrun rviz rviz
 rosrun cvchallenge_task2_jms cvchallenge_task2_jms_node
 ```
